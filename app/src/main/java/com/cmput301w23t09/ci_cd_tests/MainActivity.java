@@ -18,6 +18,12 @@ import com.cmput301w23t09.ci_cd_tests.databinding.ActivityMainBinding;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * Main Activity Javadoc test
+ *
+ * @author John Mabanta
+ * @version 1.0
+ */
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
