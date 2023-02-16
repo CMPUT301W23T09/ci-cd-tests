@@ -11,6 +11,9 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.cmput301w23t09.ci_cd_tests.databinding.FragmentFirstBinding;
 
+/**
+ * FirstFragment Docstring test
+ */
 public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
