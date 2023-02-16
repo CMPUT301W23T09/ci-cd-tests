@@ -19,6 +19,8 @@ jobs:
         name: Setup Java JDK 11
       - name: Execute Permission for .gradlew/
         run: chmod +x gradlew
+      - name: Build App (fixes some dependency errors)
+        run: ./gradlew build
       - name: Generate Javadoc
         run: ./gradlew generateReleaseJavadoc
       - name: Commit and Push Javadocs
